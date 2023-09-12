@@ -14,7 +14,7 @@ def main():
             # Press SHIFT+TAB
             pyautogui.hotkey('shift', 'tab')
             print('Pressed SHIFT+TAB')
-        if keyboard.is_pressed('ctrl', '/'):
+        if keyboard.is_pressed('ctrl+/'):
             print('Detected ctrl+/')
             # Press SHIFT+TAB
             pyautogui.hotkey('ctrl', 'z')
