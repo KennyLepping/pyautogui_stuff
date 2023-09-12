@@ -8,10 +8,12 @@ def main():
             print('Detected ctrl+\\')
             # Press CTRL+E
             pyautogui.hotkey('ctrl', 'e')
+            print('Pressed CTRL+E')
         if keyboard.is_pressed('shift+\\'):
             print('Detected shift+\\')
-            # Press CTRL+E
-            pyautogui.hotkey('ctrl', 'e')
+            # Press SHIFT+TAB
+            pyautogui.hotkey('shift', 'tab')
+            print('Pressed SHIFT+TAB')
         # Exit the loop when the user presses 'q'
         if keyboard.is_pressed('ctrl+q'):
             break

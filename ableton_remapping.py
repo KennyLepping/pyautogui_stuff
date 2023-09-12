@@ -14,6 +14,11 @@ def main():
             # Press SHIFT+TAB
             pyautogui.hotkey('shift', 'tab')
             print('Pressed SHIFT+TAB')
+        if keyboard.is_pressed('ctrl', '/'):
+            print('Detected ctrl+/')
+            # Press SHIFT+TAB
+            pyautogui.hotkey('ctrl', 'z')
+            print('Pressed CTRL+Z')
         # Exit the loop when the user presses 'q'
         if keyboard.is_pressed('ctrl+q'):
             break
